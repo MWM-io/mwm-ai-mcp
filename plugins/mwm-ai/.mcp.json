@@ -1,0 +1,29 @@
+{
+	"mcpServers": {
+		"mwm-ai": {
+			"type": "http",
+			"url": "https://mcp.mwm.ai/mcp",
+			"headers": {
+				"X-MWM-Plugin-Version": "0.32.3"
+			},
+			"http_headers": {
+				"X-MWM-Plugin-Version": "0.32.3"
+			},
+			"tool_timeout_sec": 900,
+			"extensions": {
+				"com.openai": {
+					"auth": {
+						"type": "oauth",
+						"client": {
+							"mode": "dcr"
+						},
+						"baseScopes": [
+							"mcp:access",
+							"offline_access"
+						]
+					}
+				}
+			}
+		}
+	}
+}

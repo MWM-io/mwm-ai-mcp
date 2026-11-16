@@ -1,0 +1,32 @@
+{
+  "name": "mwm",
+  "owner": {
+    "name": "MWM",
+    "email": "support@mwm.ai"
+  },
+  "metadata": {
+    "description": "MWM AI tools and workflow skills for mobile app research, creation, and publishing."
+  },
+  "plugins": [
+    {
+      "name": "mwm-ai",
+      "source": "./plugins/mwm-ai",
+      "description": "MWM AI: mobile market research, store copy and visuals, app analytics, reviews, and publishing workflows, with thirteen skills and a hosted MCP connection.",
+      "category": "tools",
+      "keywords": [
+        "mwm",
+        "mcp",
+        "aso",
+        "app-icons",
+        "mobile",
+        "publishing",
+        "in-app-events",
+        "custom-product-pages",
+        "privacy-policy",
+        "terms-of-service",
+        "landing-page",
+        "release"
+      ]
+    }
+  ]
+}

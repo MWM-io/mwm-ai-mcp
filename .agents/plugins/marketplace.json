@@ -1,0 +1,20 @@
+{
+  "name": "mwm",
+  "interface": {
+    "displayName": "MWM"
+  },
+  "plugins": [
+    {
+      "name": "mwm-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mwm-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

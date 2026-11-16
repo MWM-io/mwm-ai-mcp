@@ -1,0 +1,2361 @@
+{
+  "kb_version": "2026-10-19+38b08e94",
+  "topics": [
+    {
+      "id": "app-store/accessibility-labels",
+      "facts": [
+        {
+          "id": "app-store/accessibility-labels#features"
+        },
+        {
+          "id": "app-store/accessibility-labels#device-limits"
+        },
+        {
+          "id": "app-store/accessibility-labels#voluntary"
+        },
+        {
+          "id": "app-store/accessibility-labels#os-versions"
+        },
+        {
+          "id": "app-store/accessibility-labels#per-device"
+        },
+        {
+          "id": "app-store/accessibility-labels#published-at-once"
+        },
+        {
+          "id": "app-store/accessibility-labels#accessibility-url"
+        },
+        {
+          "id": "app-store/accessibility-labels#roles"
+        },
+        {
+          "id": "app-store/accessibility-labels#mwm-not-exposed"
+        }
+      ]
+    },
+    {
+      "id": "app-store/app-icon",
+      "facts": [
+        {
+          "id": "app-store/app-icon#size"
+        },
+        {
+          "id": "app-store/app-icon#in-the-build"
+        },
+        {
+          "id": "app-store/app-icon#system-mask"
+        },
+        {
+          "id": "app-store/app-icon#appearances"
+        },
+        {
+          "id": "app-store/app-icon#asset-catalog-variants"
+        },
+        {
+          "id": "app-store/app-icon#icon-composer"
+        },
+        {
+          "id": "app-store/app-icon#composer-replaces-catalog"
+        },
+        {
+          "id": "app-store/app-icon#alternate-icons"
+        },
+        {
+          "id": "app-store/app-icon#color-spaces"
+        },
+        {
+          "id": "app-store/app-icon#mwm-icon-not-sent"
+        }
+      ]
+    },
+    {
+      "id": "app-store/app-previews",
+      "facts": [
+        {
+          "id": "app-store/app-previews#count"
+        },
+        {
+          "id": "app-store/app-previews#duration"
+        },
+        {
+          "id": "app-store/app-previews#file-size"
+        },
+        {
+          "id": "app-store/app-previews#formats"
+        },
+        {
+          "id": "app-store/app-previews#resolutions"
+        },
+        {
+          "id": "app-store/app-previews#poster-frame"
+        },
+        {
+          "id": "app-store/app-previews#poster-frame-default"
+        },
+        {
+          "id": "app-store/app-previews#order"
+        },
+        {
+          "id": "app-store/app-previews#language-fallback"
+        },
+        {
+          "id": "app-store/app-previews#processing"
+        },
+        {
+          "id": "app-store/app-previews#search-results"
+        },
+        {
+          "id": "app-store/app-previews#mwm-delete-only"
+        },
+        {
+          "id": "app-store/app-previews#mwm-no-restore"
+        }
+      ]
+    },
+    {
+      "id": "app-store/app-privacy",
+      "facts": [
+        {
+          "id": "app-store/app-privacy#required"
+        },
+        {
+          "id": "app-store/app-privacy#sdks-count"
+        },
+        {
+          "id": "app-store/app-privacy#collect-definition"
+        },
+        {
+          "id": "app-store/app-privacy#linked-definition"
+        },
+        {
+          "id": "app-store/app-privacy#optional-disclosure"
+        },
+        {
+          "id": "app-store/app-privacy#tracking-definition"
+        },
+        {
+          "id": "app-store/app-privacy#att-permission"
+        },
+        {
+          "id": "app-store/app-privacy#sdk-tracking"
+        },
+        {
+          "id": "app-store/app-privacy#not-tracking"
+        },
+        {
+          "id": "app-store/app-privacy#no-fingerprinting"
+        },
+        {
+          "id": "app-store/app-privacy#update-without-release"
+        },
+        {
+          "id": "app-store/app-privacy#who-answers"
+        },
+        {
+          "id": "app-store/app-privacy#privacy-manifest"
+        },
+        {
+          "id": "app-store/app-privacy#mwm-records-person-publishes"
+        },
+        {
+          "id": "app-store/app-privacy#publish-flow"
+        },
+        {
+          "id": "app-store/app-privacy#mwm-browser-session"
+        },
+        {
+          "id": "app-store/app-privacy#mwm-copy"
+        },
+        {
+          "id": "app-store/app-privacy#mwm-changed-answers"
+        }
+      ]
+    },
+    {
+      "id": "app-store/app-settings",
+      "facts": [
+        {
+          "id": "app-store/app-settings#categories"
+        },
+        {
+          "id": "app-store/app-settings#games-subcategories"
+        },
+        {
+          "id": "app-store/app-settings#category-and-rating-with-version"
+        },
+        {
+          "id": "app-store/app-settings#mwm-writes-categories"
+        },
+        {
+          "id": "app-store/app-settings#age-rating-values"
+        },
+        {
+          "id": "app-store/app-settings#regional-ratings"
+        },
+        {
+          "id": "app-store/app-settings#questionnaire"
+        },
+        {
+          "id": "app-store/app-settings#questionnaire-deadline"
+        },
+        {
+          "id": "app-store/app-settings#made-for-kids"
+        },
+        {
+          "id": "app-store/app-settings#mwm-age-answers"
+        },
+        {
+          "id": "app-store/app-settings#price-applies-directly"
+        },
+        {
+          "id": "app-store/app-settings#availability-timing"
+        },
+        {
+          "id": "app-store/app-settings#base-country-price"
+        },
+        {
+          "id": "app-store/app-settings#new-countries"
+        },
+        {
+          "id": "app-store/app-settings#remove-from-sale"
+        },
+        {
+          "id": "app-store/app-settings#required-before-review"
+        },
+        {
+          "id": "app-store/app-settings#mwm-price-base"
+        }
+      ]
+    },
+    {
+      "id": "app-store/apple-ads",
+      "facts": [
+        {
+          "id": "app-store/apple-ads#renamed"
+        },
+        {
+          "id": "app-store/apple-ads#renamed-date"
+        },
+        {
+          "id": "app-store/apple-ads#placements"
+        },
+        {
+          "id": "app-store/apple-ads#cpp-ad-variations"
+        },
+        {
+          "id": "app-store/apple-ads#deep-link"
+        },
+        {
+          "id": "app-store/apple-ads#storekit-ads"
+        }
+      ]
+    },
+    {
+      "id": "app-store/builds-and-testflight",
+      "facts": [
+        {
+          "id": "app-store/builds-and-testflight#build-processing"
+        },
+        {
+          "id": "app-store/builds-and-testflight#one-build-per-version"
+        },
+        {
+          "id": "app-store/builds-and-testflight#sdk-minimum"
+        },
+        {
+          "id": "app-store/builds-and-testflight#deployment-target-minimum"
+        },
+        {
+          "id": "app-store/builds-and-testflight#sdk-april-2027"
+        },
+        {
+          "id": "app-store/builds-and-testflight#export-compliance"
+        },
+        {
+          "id": "app-store/builds-and-testflight#info-plist-key"
+        },
+        {
+          "id": "app-store/builds-and-testflight#compliance-code"
+        },
+        {
+          "id": "app-store/builds-and-testflight#internal-testers"
+        },
+        {
+          "id": "app-store/builds-and-testflight#external-beta-review"
+        },
+        {
+          "id": "app-store/builds-and-testflight#build-expiry"
+        },
+        {
+          "id": "app-store/builds-and-testflight#upload-ways"
+        },
+        {
+          "id": "app-store/builds-and-testflight#mwm-no-binary-upload"
+        },
+        {
+          "id": "app-store/builds-and-testflight#mwm-valid-builds-only"
+        }
+      ]
+    },
+    {
+      "id": "app-store/custom-product-pages",
+      "facts": [
+        {
+          "id": "app-store/custom-product-pages#cap"
+        },
+        {
+          "id": "app-store/custom-product-pages#mwm-cap"
+        },
+        {
+          "id": "app-store/custom-product-pages#what-varies"
+        },
+        {
+          "id": "app-store/custom-product-pages#creative-assets"
+        },
+        {
+          "id": "app-store/custom-product-pages#visibility"
+        },
+        {
+          "id": "app-store/custom-product-pages#keywords-from-approved-version"
+        },
+        {
+          "id": "app-store/custom-product-pages#unique-keywords"
+        },
+        {
+          "id": "app-store/custom-product-pages#primary-locale"
+        },
+        {
+          "id": "app-store/custom-product-pages#needs-live-app"
+        },
+        {
+          "id": "app-store/custom-product-pages#review-without-update"
+        },
+        {
+          "id": "app-store/custom-product-pages#states"
+        },
+        {
+          "id": "app-store/custom-product-pages#edit-approved"
+        },
+        {
+          "id": "app-store/custom-product-pages#link"
+        },
+        {
+          "id": "app-store/custom-product-pages#link-disabled"
+        },
+        {
+          "id": "app-store/custom-product-pages#deep-link"
+        },
+        {
+          "id": "app-store/custom-product-pages#analytics"
+        }
+      ]
+    },
+    {
+      "id": "app-store/eu-trader-status",
+      "facts": [
+        {
+          "id": "app-store/eu-trader-status#declaration-required"
+        },
+        {
+          "id": "app-store/eu-trader-status#self-assessment"
+        },
+        {
+          "id": "app-store/eu-trader-status#shown-in-eu"
+        },
+        {
+          "id": "app-store/eu-trader-status#verification"
+        },
+        {
+          "id": "app-store/eu-trader-status#non-trader-notice"
+        },
+        {
+          "id": "app-store/eu-trader-status#updates-date"
+        },
+        {
+          "id": "app-store/eu-trader-status#removal-date"
+        },
+        {
+          "id": "app-store/eu-trader-status#mwm-landing-legal"
+        }
+      ]
+    },
+    {
+      "id": "app-store/in-app-events",
+      "facts": [
+        {
+          "id": "app-store/in-app-events#what-it-is"
+        },
+        {
+          "id": "app-store/in-app-events#badges"
+        },
+        {
+          "id": "app-store/in-app-events#purposes"
+        },
+        {
+          "id": "app-store/in-app-events#text-limits"
+        },
+        {
+          "id": "app-store/in-app-events#publish-window"
+        },
+        {
+          "id": "app-store/in-app-events#max-duration"
+        },
+        {
+          "id": "app-store/in-app-events#min-duration"
+        },
+        {
+          "id": "app-store/in-app-events#published-at-once"
+        },
+        {
+          "id": "app-store/in-app-events#overlapping"
+        },
+        {
+          "id": "app-store/in-app-events#start-dates-48h"
+        },
+        {
+          "id": "app-store/in-app-events#priority"
+        },
+        {
+          "id": "app-store/in-app-events#media"
+        },
+        {
+          "id": "app-store/in-app-events#primary-locale-media"
+        },
+        {
+          "id": "app-store/in-app-events#territories"
+        },
+        {
+          "id": "app-store/in-app-events#submit-without-version"
+        },
+        {
+          "id": "app-store/in-app-events#submission-together"
+        },
+        {
+          "id": "app-store/in-app-events#editing-after-approval"
+        },
+        {
+          "id": "app-store/in-app-events#deletable"
+        },
+        {
+          "id": "app-store/in-app-events#submit-a-week-ahead"
+        },
+        {
+          "id": "app-store/in-app-events#mwm-publish-default"
+        }
+      ]
+    },
+    {
+      "id": "app-store/keywords",
+      "facts": [
+        {
+          "id": "app-store/keywords#field-budget"
+        },
+        {
+          "id": "app-store/keywords#commas-count"
+        },
+        {
+          "id": "app-store/keywords#min-term-length"
+        },
+        {
+          "id": "app-store/keywords#indexed-fields"
+        },
+        {
+          "id": "app-store/keywords#no-duplicates"
+        },
+        {
+          "id": "app-store/keywords#generic-terms"
+        },
+        {
+          "id": "app-store/keywords#per-locale"
+        },
+        {
+          "id": "app-store/keywords#needs-new-version"
+        },
+        {
+          "id": "app-store/keywords#competitor-names"
+        },
+        {
+          "id": "app-store/keywords#custom-page-serving"
+        },
+        {
+          "id": "app-store/keywords#mwm-separators"
+        }
+      ]
+    },
+    {
+      "id": "app-store/links-and-legal-fields",
+      "facts": [
+        {
+          "id": "app-store/links-and-legal-fields#support-url-required"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#privacy-policy-required"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#mwm-privacy-primary"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#marketing-url-optional"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#copyright"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#mwm-lengths"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#no-terms-field"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#subscription-links"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#terms-in-description"
+        },
+        {
+          "id": "app-store/links-and-legal-fields#terms-confirmed-once"
+        }
+      ]
+    },
+    {
+      "id": "app-store/localizations",
+      "facts": [
+        {
+          "id": "app-store/localizations#count"
+        },
+        {
+          "id": "app-store/localizations#storefront-count"
+        },
+        {
+          "id": "app-store/localizations#codes"
+        },
+        {
+          "id": "app-store/localizations#play-codes"
+        },
+        {
+          "id": "app-store/localizations#no-inheritance"
+        },
+        {
+          "id": "app-store/localizations#fallback"
+        },
+        {
+          "id": "app-store/localizations#manage-when-editable"
+        },
+        {
+          "id": "app-store/localizations#primary-language-change"
+        },
+        {
+          "id": "app-store/localizations#storefront-languages"
+        },
+        {
+          "id": "app-store/localizations#storefront-examples"
+        },
+        {
+          "id": "app-store/localizations#mwm-also-searched"
+        },
+        {
+          "id": "app-store/localizations#mwm-code-mapping"
+        }
+      ]
+    },
+    {
+      "id": "app-store/product-page-header",
+      "facts": [
+        {
+          "id": "app-store/product-page-header#ios27-only"
+        },
+        {
+          "id": "app-store/product-page-header#optional-separate"
+        },
+        {
+          "id": "app-store/product-page-header#search-fallback"
+        },
+        {
+          "id": "app-store/product-page-header#sizes"
+        },
+        {
+          "id": "app-store/product-page-header#search-visual"
+        },
+        {
+          "id": "app-store/product-page-header#video"
+        },
+        {
+          "id": "app-store/product-page-header#muted"
+        },
+        {
+          "id": "app-store/product-page-header#asset-library-standalone"
+        },
+        {
+          "id": "app-store/product-page-header#live-swap"
+        },
+        {
+          "id": "app-store/product-page-header#with-version"
+        },
+        {
+          "id": "app-store/product-page-header#other-pages"
+        },
+        {
+          "id": "app-store/product-page-header#refused-content"
+        },
+        {
+          "id": "app-store/product-page-header#age-4plus"
+        },
+        {
+          "id": "app-store/product-page-header#mwm-header"
+        },
+        {
+          "id": "app-store/product-page-header#mwm-formats"
+        }
+      ]
+    },
+    {
+      "id": "app-store/product-page-optimization",
+      "facts": [
+        {
+          "id": "app-store/product-page-optimization#treatments"
+        },
+        {
+          "id": "app-store/product-page-optimization#what-varies"
+        },
+        {
+          "id": "app-store/product-page-optimization#duration"
+        },
+        {
+          "id": "app-store/product-page-optimization#ios15"
+        },
+        {
+          "id": "app-store/product-page-optimization#not-custom-pages"
+        },
+        {
+          "id": "app-store/product-page-optimization#review"
+        },
+        {
+          "id": "app-store/product-page-optimization#apply"
+        },
+        {
+          "id": "app-store/product-page-optimization#header-tests"
+        },
+        {
+          "id": "app-store/product-page-optimization#mwm-not-available"
+        }
+      ]
+    },
+    {
+      "id": "app-store/ratings-and-prompts",
+      "facts": [
+        {
+          "id": "app-store/ratings-and-prompts#prompt-limit"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#no-button-trigger"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#user-can-disable"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#testflight-no-prompt"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#no-custom-prompts"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#reset-on-release"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#reviews-kept"
+        },
+        {
+          "id": "app-store/ratings-and-prompts#per-territory"
+        }
+      ]
+    },
+    {
+      "id": "app-store/rejections-and-guidelines",
+      "facts": [
+        {
+          "id": "app-store/rejections-and-guidelines#common-guidelines"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#guideline-2-1"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#guideline-2-3"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#guideline-3-1-1"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#guideline-4-3"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#guideline-5-1-1"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#reason-is-per-app"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#reply-and-resubmit"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#metadata-same-build"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#unresolved-items"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#appeal"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#bug-fix-submissions"
+        },
+        {
+          "id": "app-store/rejections-and-guidelines#metadata-rejected-state"
+        }
+      ]
+    },
+    {
+      "id": "app-store/release-options",
+      "facts": [
+        {
+          "id": "app-store/release-options#release-types"
+        },
+        {
+          "id": "app-store/release-options#manual-pending"
+        },
+        {
+          "id": "app-store/release-options#no-earlier-than"
+        },
+        {
+          "id": "app-store/release-options#processing-24h"
+        },
+        {
+          "id": "app-store/release-options#phased-schedule"
+        },
+        {
+          "id": "app-store/release-options#phased-updates-only"
+        },
+        {
+          "id": "app-store/release-options#mwm-no-phased-first"
+        },
+        {
+          "id": "app-store/release-options#phased-manual-download"
+        },
+        {
+          "id": "app-store/release-options#phased-pause-total"
+        },
+        {
+          "id": "app-store/release-options#phased-release-all"
+        },
+        {
+          "id": "app-store/release-options#phased-removed-from-sale"
+        },
+        {
+          "id": "app-store/release-options#mwm-release-settings"
+        },
+        {
+          "id": "app-store/release-options#mwm-release-actions"
+        }
+      ]
+    },
+    {
+      "id": "app-store/review-replies",
+      "facts": [
+        {
+          "id": "app-store/review-replies#one-response"
+        },
+        {
+          "id": "app-store/review-replies#any-review"
+        },
+        {
+          "id": "app-store/review-replies#pending-24h"
+        },
+        {
+          "id": "app-store/review-replies#editable"
+        },
+        {
+          "id": "app-store/review-replies#deletable"
+        },
+        {
+          "id": "app-store/review-replies#reviewer-notified"
+        },
+        {
+          "id": "app-store/review-replies#roles"
+        },
+        {
+          "id": "app-store/review-replies#report-a-concern"
+        },
+        {
+          "id": "app-store/review-replies#mwm-length-check"
+        },
+        {
+          "id": "app-store/review-replies#mwm-approval"
+        }
+      ]
+    },
+    {
+      "id": "app-store/screenshots",
+      "facts": [
+        {
+          "id": "app-store/screenshots#slots"
+        },
+        {
+          "id": "app-store/screenshots#ipad-sizes"
+        },
+        {
+          "id": "app-store/screenshots#per-slot"
+        },
+        {
+          "id": "app-store/screenshots#ipad-required"
+        },
+        {
+          "id": "app-store/screenshots#scaling"
+        },
+        {
+          "id": "app-store/screenshots#scaled-removal"
+        },
+        {
+          "id": "app-store/screenshots#fallback-chain"
+        },
+        {
+          "id": "app-store/screenshots#localized-or-primary"
+        },
+        {
+          "id": "app-store/screenshots#editable-states"
+        },
+        {
+          "id": "app-store/screenshots#search-results"
+        },
+        {
+          "id": "app-store/screenshots#duo-slot"
+        },
+        {
+          "id": "app-store/screenshots#duo-requirement"
+        },
+        {
+          "id": "app-store/screenshots#duo-badge"
+        },
+        {
+          "id": "app-store/screenshots#mwm-new-images"
+        },
+        {
+          "id": "app-store/screenshots#mwm-duo"
+        }
+      ]
+    },
+    {
+      "id": "app-store/submission-and-app-review",
+      "facts": [
+        {
+          "id": "app-store/submission-and-app-review#submission-holds-items"
+        },
+        {
+          "id": "app-store/submission-and-app-review#one-platform"
+        },
+        {
+          "id": "app-store/submission-and-app-review#all-accepted-before-publish"
+        },
+        {
+          "id": "app-store/submission-and-app-review#remove-removes-all"
+        },
+        {
+          "id": "app-store/submission-and-app-review#states"
+        },
+        {
+          "id": "app-store/submission-and-app-review#review-times"
+        },
+        {
+          "id": "app-store/submission-and-app-review#review-order"
+        },
+        {
+          "id": "app-store/submission-and-app-review#expedited-review"
+        },
+        {
+          "id": "app-store/submission-and-app-review#expedite-abuse"
+        },
+        {
+          "id": "app-store/submission-and-app-review#notes-bytes"
+        },
+        {
+          "id": "app-store/submission-and-app-review#contact-phone-format"
+        },
+        {
+          "id": "app-store/submission-and-app-review#demo-account"
+        },
+        {
+          "id": "app-store/submission-and-app-review#review-info-editable"
+        },
+        {
+          "id": "app-store/submission-and-app-review#completeness-share"
+        },
+        {
+          "id": "app-store/submission-and-app-review#mwm-no-demo-password"
+        },
+        {
+          "id": "app-store/submission-and-app-review#mwm-shows-items"
+        },
+        {
+          "id": "app-store/submission-and-app-review#mwm-no-join-held"
+        }
+      ]
+    },
+    {
+      "id": "app-store/text-fields",
+      "facts": [
+        {
+          "id": "app-store/text-fields#limits"
+        },
+        {
+          "id": "app-store/text-fields#code-points"
+        },
+        {
+          "id": "app-store/text-fields#name-required"
+        },
+        {
+          "id": "app-store/text-fields#subtitle-optional"
+        },
+        {
+          "id": "app-store/text-fields#promo-public-on-send"
+        },
+        {
+          "id": "app-store/text-fields#promo-not-indexed"
+        },
+        {
+          "id": "app-store/text-fields#description-plain-text"
+        },
+        {
+          "id": "app-store/text-fields#description-first-sentence"
+        },
+        {
+          "id": "app-store/text-fields#description-web-search"
+        },
+        {
+          "id": "app-store/text-fields#whats-new-not-first"
+        },
+        {
+          "id": "app-store/text-fields#no-prices-or-terms"
+        }
+      ]
+    },
+    {
+      "id": "app-store/versions-and-mutability",
+      "facts": [
+        {
+          "id": "app-store/versions-and-mutability#one-version-prepared"
+        },
+        {
+          "id": "app-store/versions-and-mutability#metadata-carried"
+        },
+        {
+          "id": "app-store/versions-and-mutability#needs-new-version"
+        },
+        {
+          "id": "app-store/versions-and-mutability#promo-anytime"
+        },
+        {
+          "id": "app-store/versions-and-mutability#editable-anytime"
+        },
+        {
+          "id": "app-store/versions-and-mutability#screenshots-with-version"
+        },
+        {
+          "id": "app-store/versions-and-mutability#waiting-for-review-edits"
+        },
+        {
+          "id": "app-store/versions-and-mutability#in-review-locked"
+        },
+        {
+          "id": "app-store/versions-and-mutability#remove-states"
+        },
+        {
+          "id": "app-store/versions-and-mutability#mwm-waiting-texts"
+        },
+        {
+          "id": "app-store/versions-and-mutability#mwm-one-version"
+        }
+      ]
+    },
+    {
+      "id": "aso/custom-page-strategy",
+      "facts": [
+        {
+          "id": "aso/custom-page-strategy#measure-against-default"
+        },
+        {
+          "id": "aso/custom-page-strategy#what-varies"
+        },
+        {
+          "id": "aso/custom-page-strategy#one-page-per-keyword"
+        },
+        {
+          "id": "aso/custom-page-strategy#play-keyword-listings"
+        },
+        {
+          "id": "aso/custom-page-strategy#mwm-ranked-only"
+        }
+      ]
+    },
+    {
+      "id": "aso/event-practice",
+      "facts": [
+        {
+          "id": "aso/event-practice#one-theme"
+        },
+        {
+          "id": "aso/event-practice#event-name"
+        },
+        {
+          "id": "aso/event-practice#media-no-text"
+        },
+        {
+          "id": "aso/event-practice#display-order"
+        },
+        {
+          "id": "aso/event-practice#play-review-time"
+        }
+      ]
+    },
+    {
+      "id": "aso/icon-practice",
+      "facts": [
+        {
+          "id": "aso/icon-practice#small-size-readability"
+        },
+        {
+          "id": "aso/icon-practice#one-concept"
+        },
+        {
+          "id": "aso/icon-practice#text-only-if-essential"
+        },
+        {
+          "id": "aso/icon-practice#appearances"
+        },
+        {
+          "id": "aso/icon-practice#play-full-square"
+        },
+        {
+          "id": "aso/icon-practice#play-no-badges"
+        },
+        {
+          "id": "aso/icon-practice#icon-tests"
+        }
+      ]
+    },
+    {
+      "id": "aso/keyword-metrics",
+      "facts": [
+        {
+          "id": "aso/keyword-metrics#popularity-source"
+        },
+        {
+          "id": "aso/keyword-metrics#popularity-not-volume"
+        },
+        {
+          "id": "aso/keyword-metrics#apple-ads-popularity"
+        },
+        {
+          "id": "aso/keyword-metrics#tracked-popularity-scale"
+        },
+        {
+          "id": "aso/keyword-metrics#difficulty"
+        },
+        {
+          "id": "aso/keyword-metrics#unscored"
+        },
+        {
+          "id": "aso/keyword-metrics#opportunity"
+        },
+        {
+          "id": "aso/keyword-metrics#market-opportunity"
+        },
+        {
+          "id": "aso/keyword-metrics#traffic-share"
+        },
+        {
+          "id": "aso/keyword-metrics#tracked-opportunity"
+        },
+        {
+          "id": "aso/keyword-metrics#visibility"
+        },
+        {
+          "id": "aso/keyword-metrics#data-age"
+        }
+      ]
+    },
+    {
+      "id": "aso/screenshot-practice",
+      "facts": [
+        {
+          "id": "aso/screenshot-practice#first-screens-in-search"
+        },
+        {
+          "id": "aso/screenshot-practice#apple-count"
+        },
+        {
+          "id": "aso/screenshot-practice#show-the-app"
+        },
+        {
+          "id": "aso/screenshot-practice#play-first-three"
+        },
+        {
+          "id": "aso/screenshot-practice#play-count"
+        },
+        {
+          "id": "aso/screenshot-practice#play-no-claims"
+        }
+      ]
+    },
+    {
+      "id": "aso/store-copy-practice",
+      "facts": [
+        {
+          "id": "aso/store-copy-practice#promise-first"
+        },
+        {
+          "id": "aso/store-copy-practice#subtitle-specific"
+        },
+        {
+          "id": "aso/store-copy-practice#no-unverifiable-claims"
+        },
+        {
+          "id": "aso/store-copy-practice#play-no-keyword-lists"
+        },
+        {
+          "id": "aso/store-copy-practice#whats-new-order"
+        },
+        {
+          "id": "aso/store-copy-practice#mwm-measure-window"
+        }
+      ]
+    },
+    {
+      "id": "cross-store/localization",
+      "facts": [
+        {
+          "id": "cross-store/localization#apple-storefront-languages"
+        },
+        {
+          "id": "cross-store/localization#storefront-search-localizations"
+        },
+        {
+          "id": "cross-store/localization#apple-display-language"
+        },
+        {
+          "id": "cross-store/localization#mwm-storefront-languages"
+        },
+        {
+          "id": "cross-store/localization#apple-localize-assets"
+        },
+        {
+          "id": "cross-store/localization#play-machine-translation"
+        },
+        {
+          "id": "cross-store/localization#play-professional-translation"
+        },
+        {
+          "id": "cross-store/localization#play-localized-graphics"
+        },
+        {
+          "id": "cross-store/localization#play-text-screenshots"
+        }
+      ]
+    },
+    {
+      "id": "cross-store/privacy-policy-and-account-deletion",
+      "facts": [
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#policy-required"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#apple-policy-content"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#play-policy-url"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#apple-deletion"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#apple-deletion-web-step"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#play-deletion"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#play-web-page"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#email-not-enough"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#deactivation-not-deletion"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#apple-subscriptions"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#sign-in-with-apple"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#play-data-safety"
+        },
+        {
+          "id": "cross-store/privacy-policy-and-account-deletion#timing"
+        }
+      ]
+    },
+    {
+      "id": "cross-store/store-differences",
+      "facts": [
+        {
+          "id": "cross-store/store-differences#subtitle-vs-short-description"
+        },
+        {
+          "id": "cross-store/store-differences#subtitle-indexed"
+        },
+        {
+          "id": "cross-store/store-differences#whats-new-vs-release-notes"
+        },
+        {
+          "id": "cross-store/store-differences#play-release-notes-limit"
+        },
+        {
+          "id": "cross-store/store-differences#custom-pages-vs-custom-listings"
+        },
+        {
+          "id": "cross-store/store-differences#custom-pages-content"
+        },
+        {
+          "id": "cross-store/store-differences#custom-listings-targeting"
+        },
+        {
+          "id": "cross-store/store-differences#events-vs-promotional-content"
+        },
+        {
+          "id": "cross-store/store-differences#play-promo-lead"
+        },
+        {
+          "id": "cross-store/store-differences#phased-vs-staged"
+        },
+        {
+          "id": "cross-store/store-differences#phased-pause"
+        },
+        {
+          "id": "cross-store/store-differences#staged-control"
+        },
+        {
+          "id": "cross-store/store-differences#experiments"
+        },
+        {
+          "id": "cross-store/store-differences#play-experiments-limits"
+        },
+        {
+          "id": "cross-store/store-differences#keyword-field"
+        },
+        {
+          "id": "cross-store/store-differences#play-title-limit"
+        }
+      ]
+    },
+    {
+      "id": "cross-store/subscriptions-and-offers",
+      "facts": [
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-offer-types"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-intro-once"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-promotional-offers"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-offer-codes"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-win-back"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#apple-promoted-purchases"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#play-offers"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#play-promo-codes"
+        },
+        {
+          "id": "cross-store/subscriptions-and-offers#mwm-not-available"
+        }
+      ]
+    },
+    {
+      "id": "google-play/android-vitals",
+      "facts": [
+        {
+          "id": "google-play/android-vitals#thresholds"
+        },
+        {
+          "id": "google-play/android-vitals#watch-thresholds"
+        },
+        {
+          "id": "google-play/android-vitals#visibility-effect"
+        },
+        {
+          "id": "google-play/android-vitals#per-device-effect"
+        },
+        {
+          "id": "google-play/android-vitals#window"
+        },
+        {
+          "id": "google-play/android-vitals#wake-locks"
+        }
+      ]
+    },
+    {
+      "id": "google-play/app-content-and-ratings",
+      "facts": [
+        {
+          "id": "google-play/app-content-and-ratings#iarc"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#rating-authorities"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#declarations"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#target-audience"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#appeal-to-children"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#ads"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#app-access"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#privacy-policy"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#health-declaration"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#data-safety-form"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#financial-declaration"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#government-declaration"
+        },
+        {
+          "id": "google-play/app-content-and-ratings#news-apps"
+        }
+      ]
+    },
+    {
+      "id": "google-play/app-signing-and-bundles",
+      "facts": [
+        {
+          "id": "google-play/app-signing-and-bundles#aab-required"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#play-app-signing"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#upload-key"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#upload-key-reset-steps"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#key-strength"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#key-validity"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#version-code"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#version-code-max"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#download-size"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#mwm-upload-key"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#mwm-next-code"
+        },
+        {
+          "id": "google-play/app-signing-and-bundles#mwm-first-upload"
+        }
+      ]
+    },
+    {
+      "id": "google-play/custom-store-listings",
+      "facts": [
+        {
+          "id": "google-play/custom-store-listings#cap"
+        },
+        {
+          "id": "google-play/custom-store-listings#targeting"
+        },
+        {
+          "id": "google-play/custom-store-listings#segments"
+        },
+        {
+          "id": "google-play/custom-store-listings#one-listing-per-country"
+        },
+        {
+          "id": "google-play/custom-store-listings#what-varies"
+        },
+        {
+          "id": "google-play/custom-store-listings#unique-url"
+        },
+        {
+          "id": "google-play/custom-store-listings#google-ads"
+        },
+        {
+          "id": "google-play/custom-store-listings#needs-published-app"
+        },
+        {
+          "id": "google-play/custom-store-listings#no-api"
+        },
+        {
+          "id": "google-play/custom-store-listings#mwm-drafts"
+        },
+        {
+          "id": "google-play/custom-store-listings#mwm-keyword-warning"
+        }
+      ]
+    },
+    {
+      "id": "google-play/data-safety-and-account-deletion",
+      "facts": [
+        {
+          "id": "google-play/data-safety-and-account-deletion#form-required"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#accuracy"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#privacy-policy"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#policy-url-format"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#policy-content"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#account-deletion"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#web-link-field"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#deletion-scope"
+        },
+        {
+          "id": "google-play/data-safety-and-account-deletion#non-mobile"
+        }
+      ]
+    },
+    {
+      "id": "google-play/graphics-and-screenshots",
+      "facts": [
+        {
+          "id": "google-play/graphics-and-screenshots#icon"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#icon-no-badges"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#feature-graphic"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#screenshots"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#form-factors"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#xr-and-automotive"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#featuring-screenshots"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#no-calls-to-action"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#preview-video"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#localized-assets"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#mwm-checks"
+        },
+        {
+          "id": "google-play/graphics-and-screenshots#mwm-alpha"
+        }
+      ]
+    },
+    {
+      "id": "google-play/listing-text",
+      "facts": [
+        {
+          "id": "google-play/listing-text#limits"
+        },
+        {
+          "id": "google-play/listing-text#description-indexed"
+        },
+        {
+          "id": "google-play/listing-text#keyword-stuffing"
+        },
+        {
+          "id": "google-play/listing-text#title-forbidden"
+        },
+        {
+          "id": "google-play/listing-text#title-deals"
+        },
+        {
+          "id": "google-play/listing-text#deceptive-claims"
+        },
+        {
+          "id": "google-play/listing-text#short-description"
+        },
+        {
+          "id": "google-play/listing-text#lead-with-key-points"
+        },
+        {
+          "id": "google-play/listing-text#release-notes-per-language"
+        },
+        {
+          "id": "google-play/listing-text#mwm-release-notes"
+        },
+        {
+          "id": "google-play/listing-text#locale-codes"
+        },
+        {
+          "id": "google-play/listing-text#machine-translation"
+        },
+        {
+          "id": "google-play/listing-text#policy-all-translations"
+        }
+      ]
+    },
+    {
+      "id": "google-play/new-account-testing",
+      "facts": [
+        {
+          "id": "google-play/new-account-testing#closed-test"
+        },
+        {
+          "id": "google-play/new-account-testing#who"
+        },
+        {
+          "id": "google-play/new-account-testing#closed-track-only"
+        },
+        {
+          "id": "google-play/new-account-testing#continuous-days"
+        },
+        {
+          "id": "google-play/new-account-testing#production-access"
+        },
+        {
+          "id": "google-play/new-account-testing#access-review-time"
+        },
+        {
+          "id": "google-play/new-account-testing#mwm-reports-it"
+        }
+      ]
+    },
+    {
+      "id": "google-play/policy-and-appeals",
+      "facts": [
+        {
+          "id": "google-play/policy-and-appeals#statuses"
+        },
+        {
+          "id": "google-play/policy-and-appeals#rejection"
+        },
+        {
+          "id": "google-play/policy-and-appeals#removal"
+        },
+        {
+          "id": "google-play/policy-and-appeals#suspension"
+        },
+        {
+          "id": "google-play/policy-and-appeals#suspension-causes"
+        },
+        {
+          "id": "google-play/policy-and-appeals#limited-visibility"
+        },
+        {
+          "id": "google-play/policy-and-appeals#termination"
+        },
+        {
+          "id": "google-play/policy-and-appeals#appeal"
+        },
+        {
+          "id": "google-play/policy-and-appeals#termination-appeal-window"
+        }
+      ]
+    },
+    {
+      "id": "google-play/promotional-content",
+      "facts": [
+        {
+          "id": "google-play/promotional-content#eligibility"
+        },
+        {
+          "id": "google-play/promotional-content#types"
+        },
+        {
+          "id": "google-play/promotional-content#durations"
+        },
+        {
+          "id": "google-play/promotional-content#lead-times"
+        },
+        {
+          "id": "google-play/promotional-content#start-24h"
+        },
+        {
+          "id": "google-play/promotional-content#preview"
+        },
+        {
+          "id": "google-play/promotional-content#same-quarter"
+        },
+        {
+          "id": "google-play/promotional-content#featuring-quota"
+        },
+        {
+          "id": "google-play/promotional-content#audiences"
+        },
+        {
+          "id": "google-play/promotional-content#image-no-text"
+        },
+        {
+          "id": "google-play/promotional-content#tagline"
+        },
+        {
+          "id": "google-play/promotional-content#description"
+        },
+        {
+          "id": "google-play/promotional-content#offer-value"
+        },
+        {
+          "id": "google-play/promotional-content#video-animation"
+        },
+        {
+          "id": "google-play/promotional-content#no-api"
+        },
+        {
+          "id": "google-play/promotional-content#mwm-designs-person-enters"
+        }
+      ]
+    },
+    {
+      "id": "google-play/reviews-and-replies",
+      "facts": [
+        {
+          "id": "google-play/reviews-and-replies#reply-length"
+        },
+        {
+          "id": "google-play/reviews-and-replies#api-7-days"
+        },
+        {
+          "id": "google-play/reviews-and-replies#no-rating-only"
+        },
+        {
+          "id": "google-play/reviews-and-replies#editable"
+        },
+        {
+          "id": "google-play/reviews-and-replies#one-public-reply"
+        },
+        {
+          "id": "google-play/reviews-and-replies#user-can-update"
+        },
+        {
+          "id": "google-play/reviews-and-replies#reply-policy"
+        },
+        {
+          "id": "google-play/reviews-and-replies#api-quota"
+        },
+        {
+          "id": "google-play/reviews-and-replies#mwm-sends-replies"
+        },
+        {
+          "id": "google-play/reviews-and-replies#mwm-first-reply-only"
+        },
+        {
+          "id": "google-play/reviews-and-replies#mwm-window"
+        }
+      ]
+    },
+    {
+      "id": "google-play/store-listing-experiments",
+      "facts": [
+        {
+          "id": "google-play/store-listing-experiments#limits"
+        },
+        {
+          "id": "google-play/store-listing-experiments#what-can-be-tested"
+        },
+        {
+          "id": "google-play/store-listing-experiments#audience"
+        },
+        {
+          "id": "google-play/store-listing-experiments#metrics"
+        },
+        {
+          "id": "google-play/store-listing-experiments#custom-listings"
+        },
+        {
+          "id": "google-play/store-listing-experiments#no-api"
+        },
+        {
+          "id": "google-play/store-listing-experiments#mwm-not-available"
+        }
+      ]
+    },
+    {
+      "id": "google-play/store-settings",
+      "facts": [
+        {
+          "id": "google-play/store-settings#category-and-tags"
+        },
+        {
+          "id": "google-play/store-settings#category-not-in-api"
+        },
+        {
+          "id": "google-play/store-settings#contact-details"
+        },
+        {
+          "id": "google-play/store-settings#free-to-paid"
+        },
+        {
+          "id": "google-play/store-settings#remove-country"
+        },
+        {
+          "id": "google-play/store-settings#play-country"
+        },
+        {
+          "id": "google-play/store-settings#testing-countries"
+        },
+        {
+          "id": "google-play/store-settings#unpublish"
+        },
+        {
+          "id": "google-play/store-settings#mwm-contact"
+        }
+      ]
+    },
+    {
+      "id": "google-play/target-api-level",
+      "facts": [
+        {
+          "id": "google-play/target-api-level#current-requirement"
+        },
+        {
+          "id": "google-play/target-api-level#form-factors"
+        },
+        {
+          "id": "google-play/target-api-level#existing-apps"
+        },
+        {
+          "id": "google-play/target-api-level#extension"
+        },
+        {
+          "id": "google-play/target-api-level#exception"
+        }
+      ]
+    },
+    {
+      "id": "google-play/tracks-and-rollouts",
+      "facts": [
+        {
+          "id": "google-play/tracks-and-rollouts#tracks"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#internal-limit"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#open-test-cap"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#higher-code-wins"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#review-time"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#managed-publishing"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#managed-not-held"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#staged-updates-only"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#no-automatic-ramp"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#halt-keeps-installs"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#countries-locked"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#mwm-manages-rollouts"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#mwm-production-draft"
+        },
+        {
+          "id": "google-play/tracks-and-rollouts#mwm-first-release-console"
+        }
+      ]
+    },
+    {
+      "id": "mwm/analytics-metric-definitions",
+      "facts": [
+        {
+          "id": "mwm/analytics-metric-definitions#mrr-weekly-plans"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#mrr-not-revenue"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#arr"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#gross-vs-proceeds"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#gross-based-metrics"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#currency"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#downloads-vs-installs"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#downloads-coverage"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#cohort-vs-period"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#maturity"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#windows-and-as-of"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#fresh-day-dropped"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#unknown-not-zero"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#paid-churn"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#two-retentions"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#play-subscriptions"
+        },
+        {
+          "id": "mwm/analytics-metric-definitions#partner-net-proceeds"
+        }
+      ]
+    },
+    {
+      "id": "mwm/analytics-notes",
+      "facts": [
+        {
+          "id": "mwm/analytics-notes#what"
+        },
+        {
+          "id": "mwm/analytics-notes#length"
+        },
+        {
+          "id": "mwm/analytics-notes#pending-cap"
+        },
+        {
+          "id": "mwm/analytics-notes#period"
+        },
+        {
+          "id": "mwm/analytics-notes#who-sees"
+        },
+        {
+          "id": "mwm/analytics-notes#who-decides"
+        },
+        {
+          "id": "mwm/analytics-notes#open-charts"
+        }
+      ]
+    },
+    {
+      "id": "mwm/assistant-budget",
+      "facts": [
+        {
+          "id": "mwm/assistant-budget#unit"
+        },
+        {
+          "id": "mwm/assistant-budget#daily-units"
+        },
+        {
+          "id": "mwm/assistant-budget#confirmation-beyond"
+        },
+        {
+          "id": "mwm/assistant-budget#confirmation-scope"
+        },
+        {
+          "id": "mwm/assistant-budget#monthly-observation"
+        },
+        {
+          "id": "mwm/assistant-budget#refund"
+        },
+        {
+          "id": "mwm/assistant-budget#unavailable"
+        }
+      ]
+    },
+    {
+      "id": "mwm/assistant-settings",
+      "facts": [
+        {
+          "id": "mwm/assistant-settings#two-settings"
+        },
+        {
+          "id": "mwm/assistant-settings#modes"
+        },
+        {
+          "id": "mwm/assistant-settings#send-directly"
+        },
+        {
+          "id": "mwm/assistant-settings#when-i-ask"
+        },
+        {
+          "id": "mwm/assistant-settings#confirm-means-console"
+        },
+        {
+          "id": "mwm/assistant-settings#not-chosen"
+        },
+        {
+          "id": "mwm/assistant-settings#assistant-only-lowers"
+        },
+        {
+          "id": "mwm/assistant-settings#rights-first"
+        },
+        {
+          "id": "mwm/assistant-settings#handoff-drafts"
+        },
+        {
+          "id": "mwm/assistant-settings#what-counts-as-publish"
+        }
+      ]
+    },
+    {
+      "id": "mwm/landing-pages",
+      "facts": [
+        {
+          "id": "mwm/landing-pages#structure"
+        },
+        {
+          "id": "mwm/landing-pages#server-owned"
+        },
+        {
+          "id": "mwm/landing-pages#public-address"
+        },
+        {
+          "id": "mwm/landing-pages#republish-after-delete"
+        },
+        {
+          "id": "mwm/landing-pages#languages"
+        },
+        {
+          "id": "mwm/landing-pages#legal-links"
+        },
+        {
+          "id": "mwm/landing-pages#legal-notice"
+        },
+        {
+          "id": "mwm/landing-pages#reviews-section"
+        },
+        {
+          "id": "mwm/landing-pages#hosting"
+        },
+        {
+          "id": "mwm/landing-pages#what-is-live"
+        },
+        {
+          "id": "mwm/landing-pages#links-caps"
+        }
+      ]
+    },
+    {
+      "id": "mwm/legal-documents",
+      "facts": [
+        {
+          "id": "mwm/legal-documents#clause-library"
+        },
+        {
+          "id": "mwm/legal-documents#approved-template"
+        },
+        {
+          "id": "mwm/legal-documents#questionnaire"
+        },
+        {
+          "id": "mwm/legal-documents#complete-answers"
+        },
+        {
+          "id": "mwm/legal-documents#publication"
+        },
+        {
+          "id": "mwm/legal-documents#versions"
+        },
+        {
+          "id": "mwm/legal-documents#public-address"
+        },
+        {
+          "id": "mwm/legal-documents#languages"
+        },
+        {
+          "id": "mwm/legal-documents#jurisdictions"
+        }
+      ]
+    },
+    {
+      "id": "mwm/market-data-semantics",
+      "facts": [
+        {
+          "id": "mwm/market-data-semantics#estimated"
+        },
+        {
+          "id": "mwm/market-data-semantics#observed"
+        },
+        {
+          "id": "mwm/market-data-semantics#provider-change"
+        },
+        {
+          "id": "mwm/market-data-semantics#worldwide"
+        },
+        {
+          "id": "mwm/market-data-semantics#windows"
+        },
+        {
+          "id": "mwm/market-data-semantics#charts"
+        },
+        {
+          "id": "mwm/market-data-semantics#charts-depth"
+        },
+        {
+          "id": "mwm/market-data-semantics#absence-not-zero"
+        },
+        {
+          "id": "mwm/market-data-semantics#keyword-ranks"
+        },
+        {
+          "id": "mwm/market-data-semantics#freshness"
+        },
+        {
+          "id": "mwm/market-data-semantics#ratings"
+        },
+        {
+          "id": "mwm/market-data-semantics#competitor-reviews"
+        },
+        {
+          "id": "mwm/market-data-semantics#ads"
+        },
+        {
+          "id": "mwm/market-data-semantics#discovery-ranking"
+        }
+      ]
+    },
+    {
+      "id": "mwm/reviews-analytics",
+      "facts": [
+        {
+          "id": "mwm/reviews-analytics#sources"
+        },
+        {
+          "id": "mwm/reviews-analytics#play-coverage"
+        },
+        {
+          "id": "mwm/reviews-analytics#play-api-window"
+        },
+        {
+          "id": "mwm/reviews-analytics#topics"
+        },
+        {
+          "id": "mwm/reviews-analytics#ai-reading"
+        },
+        {
+          "id": "mwm/reviews-analytics#windows"
+        },
+        {
+          "id": "mwm/reviews-analytics#empty-rates"
+        },
+        {
+          "id": "mwm/reviews-analytics#user-types"
+        },
+        {
+          "id": "mwm/reviews-analytics#reply-queue"
+        },
+        {
+          "id": "mwm/reviews-analytics#play-reply-limit"
+        },
+        {
+          "id": "mwm/reviews-analytics#app-store-reply-limit"
+        },
+        {
+          "id": "mwm/reviews-analytics#reply-approval"
+        }
+      ]
+    },
+    {
+      "id": "mwm/roles-and-partners",
+      "facts": [
+        {
+          "id": "mwm/roles-and-partners#ladder"
+        },
+        {
+          "id": "mwm/roles-and-partners#roles"
+        },
+        {
+          "id": "mwm/roles-and-partners#contributor"
+        },
+        {
+          "id": "mwm/roles-and-partners#older-roles"
+        },
+        {
+          "id": "mwm/roles-and-partners#manage-organization"
+        },
+        {
+          "id": "mwm/roles-and-partners#listing-owner"
+        },
+        {
+          "id": "mwm/roles-and-partners#one-organization-at-a-time"
+        },
+        {
+          "id": "mwm/roles-and-partners#partners"
+        },
+        {
+          "id": "mwm/roles-and-partners#partner-submit"
+        },
+        {
+          "id": "mwm/roles-and-partners#partner-reviews"
+        },
+        {
+          "id": "mwm/roles-and-partners#partner-roles-share"
+        },
+        {
+          "id": "mwm/roles-and-partners#assistant-connection"
+        }
+      ]
+    },
+    {
+      "id": "mwm/shared-listing",
+      "facts": [
+        {
+          "id": "mwm/shared-listing#one-page-per-store-app"
+        },
+        {
+          "id": "mwm/shared-listing#drafts-and-live"
+        },
+        {
+          "id": "mwm/shared-listing#draft-base"
+        },
+        {
+          "id": "mwm/shared-listing#send-plan"
+        },
+        {
+          "id": "mwm/shared-listing#blocked-reasons"
+        },
+        {
+          "id": "mwm/shared-listing#missing-texts"
+        },
+        {
+          "id": "mwm/shared-listing#sending-not-public"
+        },
+        {
+          "id": "mwm/shared-listing#google-play-send"
+        },
+        {
+          "id": "mwm/shared-listing#google-play-review-in-progress"
+        },
+        {
+          "id": "mwm/shared-listing#google-play-outside-changes"
+        },
+        {
+          "id": "mwm/shared-listing#one-send-at-a-time"
+        },
+        {
+          "id": "mwm/shared-listing#colleagues-drafts"
+        },
+        {
+          "id": "mwm/shared-listing#no-silent-overwrite"
+        },
+        {
+          "id": "mwm/shared-listing#needs-version-fields"
+        },
+        {
+          "id": "mwm/shared-listing#mwm-creates-versions"
+        },
+        {
+          "id": "mwm/shared-listing#activity"
+        }
+      ]
+    },
+    {
+      "id": "mwm/store-connections",
+      "facts": [
+        {
+          "id": "mwm/store-connections#asc-key-role"
+        },
+        {
+          "id": "mwm/store-connections#asc-who-creates"
+        },
+        {
+          "id": "mwm/store-connections#p8-once"
+        },
+        {
+          "id": "mwm/store-connections#asc-check"
+        },
+        {
+          "id": "mwm/store-connections#several-apple-teams"
+        },
+        {
+          "id": "mwm/store-connections#play-service-account"
+        },
+        {
+          "id": "mwm/store-connections#play-invite"
+        },
+        {
+          "id": "mwm/store-connections#play-check"
+        },
+        {
+          "id": "mwm/store-connections#play-permissions"
+        },
+        {
+          "id": "mwm/store-connections#connection-errors"
+        },
+        {
+          "id": "mwm/store-connections#play-errors"
+        },
+        {
+          "id": "mwm/store-connections#keys-never-in-chat"
+        }
+      ]
+    },
+    {
+      "id": "mwm/studios-and-assets",
+      "facts": [
+        {
+          "id": "mwm/studios-and-assets#studios"
+        },
+        {
+          "id": "mwm/studios-and-assets#billed"
+        },
+        {
+          "id": "mwm/studios-and-assets#generated-kept"
+        },
+        {
+          "id": "mwm/studios-and-assets#nothing-sent"
+        },
+        {
+          "id": "mwm/studios-and-assets#play-no-api"
+        },
+        {
+          "id": "mwm/studios-and-assets#uploads"
+        },
+        {
+          "id": "mwm/studios-and-assets#upload-limits"
+        },
+        {
+          "id": "mwm/studios-and-assets#upload-final"
+        },
+        {
+          "id": "mwm/studios-and-assets#upload-deletion"
+        }
+      ]
+    },
+    {
+      "id": "mwm/tasks-and-handoffs",
+      "facts": [
+        {
+          "id": "mwm/tasks-and-handoffs#tasks"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#objectives"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#producers"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#closing"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#timings"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#reader-rights"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#agents"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#handoffs"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#handoff-who"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#handoff-progress"
+        },
+        {
+          "id": "mwm/tasks-and-handoffs#handoff-drafts"
+        }
+      ]
+    },
+    {
+      "id": "mwm/watchlists",
+      "facts": [
+        {
+          "id": "mwm/watchlists#what-it-is"
+        },
+        {
+          "id": "mwm/watchlists#states"
+        },
+        {
+          "id": "mwm/watchlists#notes"
+        },
+        {
+          "id": "mwm/watchlists#revision"
+        },
+        {
+          "id": "mwm/watchlists#shortlist"
+        },
+        {
+          "id": "mwm/watchlists#metrics"
+        },
+        {
+          "id": "mwm/watchlists#internal-only"
+        }
+      ]
+    }
+  ]
+}
