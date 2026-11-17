@@ -26,8 +26,8 @@ when you want to work on your own apps.
 | `.claude-plugin/plugin.json` | Native Claude plugin manifest |
 | `.claude-plugin/icon.png` | Claude directory icon |
 | `.codex-plugin/plugin.json` | Codex manifest and OpenAI interface metadata |
-| `.mcp.json` | Shared desktop connection configuration |
-| `mcp.json` | Portable MCP configuration used by the OpenAI submission builder |
+| `.mcp.json` | Native Claude connection configuration, restricted to Claude's allowed fields |
+| `.mcp.codex.json` | Codex connection configuration, referenced only by the Codex manifest |
 | `skills/setup/` | Account connection, missing tools, and store setup |
 | `skills/working-with-mwm/` | Shared work, briefs, roles, and user intent |
 | `skills/store-copy/` | Store listing text and localization |
@@ -76,15 +76,27 @@ A direct MCP-only connection does not install these commands or skills.
 
 ## Distribution formats
 
-The Claude ZIP contains the native Claude manifest and a Claude MCP
-configuration. The desktop ZIP includes the Claude and Codex manifests and
-the shared desktop MCP configuration. The OpenAI submission ZIP uses a
-generated root `plugin.json` and portable `mcp.json`.
+The Claude ZIP contains the native Claude manifest and the same `.mcp.json`
+that Claude loads from this repository. The desktop ZIP includes both native
+manifests and their separately referenced MCP configurations. Codex's
+`http_headers`, `tool_timeout_sec`, and `extensions.com.openai.auth` stay in
+`.mcp.codex.json`; Claude does not reference that file.
+
+The OpenAI submission ZIP uses generated root `plugin.json` and portable
+`mcp.json` files. Its MCP declaration retains `extensions.com.openai.auth`,
+OAuth dynamic client registration, and the `mcp:access` and `offline_access`
+scopes. Portable `mcp.json` is generated from the Codex configuration at build
+time, so it is present at the required root path in the submission ZIP.
 
 Manifests share the plugin identity and version, while keeping host-specific
 metadata in the appropriate manifest. The desktop version header
 `X-MWM-Plugin-Version` identifies the installed package to the service; it
 is not a credential. No account token is included in the package.
+
+The package builder checks Claude's directory allowlists in addition to the
+shared endpoint and version. `scripts/check-claude-package.py` also rejects
+unsupported `package.json` fields and non-object JSON; this package does not
+need a `package.json` or an executable install step.
 
 ## Access, usage, and support
 

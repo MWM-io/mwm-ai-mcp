@@ -1,6 +1,6 @@
 {
 	"name": "mwm-ai",
-	"version": "0.32.3",
+	"version": "0.32.4",
 	"description": "Tools for mobile app developers and publishers: research competitors and ASO keywords, generate icons and store screenshots, prepare and update store listings, manage App Store events and custom product pages, analyze App Store reviews, and prepare Android releases and app landing pages.",
 	"author": {
 		"name": "MWM",
@@ -10,7 +10,6 @@
 	"homepage": "https://console.mwm.ai/mcp",
 	"repository": "https://github.com/MWM-io/mwm-ai-mcp",
 	"license": "MIT",
-	"privacyPolicyUrl": "https://console.mwm.ai/mcp/privacy",
 	"keywords": [
 		"mwm",
 		"mcp",

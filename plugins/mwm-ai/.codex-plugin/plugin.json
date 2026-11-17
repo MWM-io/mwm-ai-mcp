@@ -1,6 +1,6 @@
 {
 	"name": "mwm-ai",
-	"version": "0.32.3",
+	"version": "0.32.4",
 	"description": "Tools for mobile app developers and publishers: research competitors and ASO keywords, generate icons and store screenshots, prepare and update store listings, manage App Store events and custom product pages, analyze App Store reviews, and prepare Android releases and app landing pages.",
 	"author": {
 		"name": "MWM",
@@ -43,7 +43,7 @@
 		"app-analytics"
 	],
 	"skills": "./skills/",
-	"mcpServers": "./.mcp.json",
+	"mcpServers": "./.mcp.codex.json",
 	"interface": {
 		"displayName": "MWM AI",
 		"shortDescription": "Mobile market & store tools",
@@ -124,7 +124,7 @@
 				}
 			},
 			"publication": {
-				"release_notes": "Version 0.32.3 prepares the public MWM AI distribution under MIT, adds installation and troubleshooting guides, separates native host manifests, and packages the license and Claude icon. It retains thirteen workflow skills and the production MCP endpoint, and tightens one research skill sentence to pass the existing packaging lint."
+				"release_notes": "Version 0.32.4 separates the native Claude MCP configuration from Codex settings to satisfy the Claude directory allowlists. Codex retains its version header, long-running tool timeout, interface, onboarding and review metadata. The OpenAI submission ZIP still includes a portable root plugin.json and mcp.json with explicit OAuth, dynamic registration and refresh scopes. Skills and the production MCP endpoint are unchanged."
 			},
 			"onboardingSkill": "./skills/setup/SKILL.md"
 		}

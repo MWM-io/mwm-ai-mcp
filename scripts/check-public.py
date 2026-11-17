@@ -5,6 +5,7 @@ import hashlib
 import importlib.util
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path, PurePosixPath
 from urllib.parse import unquote, urlsplit
@@ -27,10 +28,19 @@ def main():
     if inventory["repository"] != "MWM-io/mwm-ai-mcp":
         raise ValueError("Unexpected public repository")
     expected = set(inventory["files"]) | {INVENTORY}
+    # In a checkout, local IDE/cache files ignored by Git are not published.
+    # Export snapshots without .git still validate every file strictly.
+    visible = None
+    if (REPO / ".git").exists():
+        visible = set(subprocess.check_output(
+            ["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"], cwd=REPO,
+        ).decode().split("\0"))
     actual = set()
     for path in REPO.rglob("*"):
         relative = path.relative_to(REPO)
         if any(part in IGNORED for part in relative.parts):
+            continue
+        if visible is not None and relative.as_posix() not in visible:
             continue
         if path.is_symlink():
             raise ValueError(f"Public symlink: {relative}")
